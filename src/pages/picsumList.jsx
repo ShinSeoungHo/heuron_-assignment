@@ -133,6 +133,8 @@ const PicsumList = () => {
                         })}
                       </tr>
                     );
+                  } else {
+                    return null;
                   }
                 })}
               </tbody>

@@ -115,7 +115,7 @@ const PicsumDetail = () => {
 
           drag = false;
 
-          if(diffX != 0 && diffY != 0) {
+          if(diffX !== 0 && diffY !== 0) {
             canvasX = event.clientX - canvas.offsetLeft;
             canvasY = event.clientY - canvas.offsetTop;
 
@@ -152,7 +152,7 @@ const PicsumDetail = () => {
 
         canvas.addEventListener('mousemove', (event) => {
           if (drag) {
-            if (event.buttons == 1) {
+            if (event.buttons === 1) {
               event.preventDefault();
 
               scale += event.movementY * -0.01;
@@ -168,7 +168,7 @@ const PicsumDetail = () => {
 
               ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
               ctx.restore();
-            } else if (event.buttons == 2) {
+            } else if (event.buttons === 2) {
               event.preventDefault();
 
               canvasX = event.clientX - canvas.offsetLeft;
