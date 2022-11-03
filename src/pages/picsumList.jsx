@@ -93,6 +93,7 @@ const PicsumList = () => {
         setThList([...thList, "Thumbnail"]);
       }
     }
+  // eslint-disable-next-line
   }, [thList]);
 
   return(
