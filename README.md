@@ -15,6 +15,7 @@
 - npm run start 
 
 # 디렉터리 구조
+```
   src
  ┣ components
  ┃ ┗ header.jsx
@@ -26,6 +27,7 @@
  ┣ App.jsx
  ┣ index.css
  ┗ index.jsx
+```
 
 # 추가 된 라이브러리
 1. react-router-dom
